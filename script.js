@@ -6,8 +6,11 @@ var startBtn = document.querySelector("#StartQuiz");
 // Add event listener to generate button
 startBtn.addEventListener("click", BeginQuiz);
 
-//array of question programs
-//var questions = [
+// question for the  programs
+//var totalScore =  [
+   //NumbQuestion = [{
+
+   }]
 
    // {
         //prompt: "Commonly used data types DO NOT include:\n (A) Strings\n\
