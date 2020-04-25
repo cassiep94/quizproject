@@ -1,9 +1,10 @@
 
 
-var generateBtn = document.querySelector("#Start Quiz");
+var startBtn = document.querySelector("#StartQuiz");
 
 
-
+// Add event listener to generate button
+startBtn.addEventListener("click", BeginQuiz);
 
 //array of question programs
 //var questions = [
