@@ -9,5 +9,10 @@ var questions = [
         (B) Curly Brackets \n (C)Parentheses\n (D) Square Brackets",
         answer: "A"
     }, 
+    {
+        prompt: "Arrays in JavaScript can be used to store__:\n (A) Numbers and strings\n\
+        (B) Other\n (C)Booleans\n (D) All of the above",
+        answer: "D"
+    }, 
 
 ]
