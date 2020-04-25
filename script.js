@@ -1,4 +1,7 @@
+
+//array of question programs
 var questions = [
+
     {
         prompt: "Commonly used data types DO NOT include:\n (A) Strings\n\
         (B) Booleans\n (C)Alerts\n (D) Numbers",
@@ -26,3 +29,4 @@ var questions = [
     }, 
 
 ]
+var score =0
