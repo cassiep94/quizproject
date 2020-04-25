@@ -14,5 +14,15 @@ var questions = [
         (B) Other\n (C)Booleans\n (D) All of the above",
         answer: "D"
     }, 
+    {
+        prompt: "String values must be enclosed within __ when being assigned to variables.:\n (A) Commas\n\
+        (B) Curly brackets\n (C)Quotation Marks\n (D) Parentheses",
+        answer: "C"
+    }, 
+    {
+        prompt: "A very useful tool used during development and debugging for printing content to the debugger is:\n (A) Javascript\n\
+        (B) terminal/bash\n (C)for loops\n (D) console.log",
+        answer: "C"
+    }, 
 
 ]
