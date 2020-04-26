@@ -6,26 +6,59 @@ var startBtn = document.querySelector("#StartQuiz");
 // Add event listener to generate button
 startBtn.addEventListener("click", BeginQuiz);
 
-// question for the  programs
-//var totalScore =  [
-   //NumbQuestion = [{
+var Currentquestion = 0;
+var score = 0;
+var totQuestions = questions.length;
 
-   }]
 
-   // {
-        //prompt: "Commonly used data types DO NOT include:\n (A) Strings\n\
-        //(B) Booleans\n (C)Alerts\n (D) Numbers",
-        //answer: "D"
-    //}, 
-    //{
-        //prompt: "The Condition in and if/else statement is enclosed within ___:\n (A) Quotes\n\
-        //(B) Curly Brackets \n (C)Parentheses\n (D) Square Brackets",
-        //answer: "A"
-    //},  
-    //{
-       // prompt: "Arrays in JavaScript can be used to store__:\n (A) Numbers and strings\n\
-        //(B) Other\n (C)Booleans\n (D) All of the above",
-       // answer: "D"
+   const myQuestions = [
+
+   {
+   question: "Commonly used data types DO NOT include?",
+   answers: {
+    a: "Strings",
+    b: "Booleans",
+    c: "Alerts",
+    d: "Numbers",
+
+   },
+   correctAnswer: "D"
+   },
+        {
+           question: "The Condition in and if/else statement is enclosed within ___:",
+           answers: {
+              a:"Quotes",
+              b:"Curly Brackets",
+              c:"Parentheses",
+              d:"Square Brackets",
+           },
+           correctAnswer: "A"
+        },
+        {
+           question:"Arrays in JavaScript can be used to store__:",
+           answers: {
+              a:"numbers and strings",
+              b:"other",
+              c:"booleans",
+              d:"all of the above",
+           },
+           correctAnswer: "D"
+        },
+        {
+         question:"String values must be enclosed within__ when being asigned to variables:",
+         answers: {
+            a:"curly brackets",
+            b:"Quotation Marks",
+            c:"parentheses",
+            d:"commas",
+         },
+         correctAnswers:"B"
+      }
+      
+         
+
+    
+       
    // }, 
     //{
        // (B) Curly brackets\n (C)Quotation Marks\n (D) Parentheses",
