@@ -22,7 +22,7 @@ var totQuestions = questions.length;
     d: "Numbers",
 
    },
-   correctAnswer: "D"
+   correctAnswer: "d"
    },
         {
            question: "The Condition in and if/else statement is enclosed within ___:",
@@ -32,7 +32,7 @@ var totQuestions = questions.length;
               c:"Parentheses",
               d:"Square Brackets",
            },
-           correctAnswer: "A"
+           correctAnswer: "a"
         },
         {
            question:"Arrays in JavaScript can be used to store__:",
@@ -42,33 +42,37 @@ var totQuestions = questions.length;
               c:"booleans",
               d:"all of the above",
            },
-           correctAnswer: "D"
+           correctAnswer: "d"
         },
         {
          question:"String values must be enclosed within__ when being asigned to variables:",
          answers: {
-            a:"curly brackets",
+            a:"Curly brackets",
             b:"Quotation Marks",
-            c:"parentheses",
-            d:"commas",
+            c:"Parentheses",
+            d:"Commas",
          },
-         correctAnswers:"B"
+         correctAnswers:"b"
+      },
+      { 
+         question: "A very useful tool used during developement and debugging for printing content to the debugger is:",
+         answers: {
+            a:"Javascript",
+            b:"Terminal/bash",
+            c:"for loops",
+            d:"console.log",
+
+         },
+         correctAnswer: "c"
       }
-      
+
+         ];
+
+
          
 
     
        
-   // }, 
-    //{
-       // (B) Curly brackets\n (C)Quotation Marks\n (D) Parentheses",
-       // answer: "C"
-   // }, 
-    //{
-       // prompt: "A very useful tool used during development and debugging for printing content to the debugger is:\n (A) Javascript\n\
-      //  (B) terminal/bash\n (C)for loops\n (D) console.log",
-      //  answer: "C"
-   // }, 
-
+   
 //]
 //var score =0
